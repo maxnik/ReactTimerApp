@@ -12,7 +12,7 @@ class Nav extends React.Component {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav mr-auto">
             <li className="nav-item">
-              <NavLink exact to="/timer" className="nav-link">Timer</NavLink>
+              <NavLink exact to="/" className="nav-link">Timer</NavLink>
             </li>
             <li className="nav-item">
               <NavLink exact to="/countdown" className="nav-link">Countdown</NavLink>
