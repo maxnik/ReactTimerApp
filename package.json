@@ -41,6 +41,7 @@
     "precss": "^2.0.0",
     "react-addons-test-utils": "^15.6.0",
     "sass-loader": "^6.0.6",
+    "sinon": "^3.2.1",
     "style-loader": "^0.18.2",
     "webpack": "^3.4.1"
   }
