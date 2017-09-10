@@ -5212,3 +5212,6 @@ a.text-dark:focus, a.text-dark:hover {
     padding: .75rem 3rem; }
 .controls button:first-child {
     margin-right: 1.5rem; }
+.page-title {
+  margin: 2rem 0;
+  text-align: center; }
