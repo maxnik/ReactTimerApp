@@ -19,7 +19,7 @@ export default class Controls extends React.Component {
 		const renderStartStopButton = () => {
 			if (countdownStatus === 'started') {
 				return <button className="btn btn-outline-info" onClick={this.onStatusChange('paused')}>Pause</button>
-			} else if (countdownStatus === 'paused') {
+			} else {
 				return <button className="btn btn-outline-primary" onClick={this.onStatusChange('started')}>Start</button>
 			}
 		};
