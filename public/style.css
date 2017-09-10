@@ -5201,3 +5201,14 @@ a.text-dark:focus, a.text-dark:hover {
   color: white;
   font-size: 2.25rem;
   font-weight: 300; }
+.controls {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+.controls button {
+    padding: .75rem 3rem; }
+.controls button:first-child {
+    margin-right: 1.5rem; }
